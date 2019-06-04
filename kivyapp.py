@@ -26,9 +26,9 @@ class ConnectPage(GridLayout):
                 saved_port = s[1]
                 saved_username = s[2]
         else:
-            saved_ip = ""
-            saved_port = ""
-            saved_username = ""
+            saved_ip = "127.0.0.1"
+            saved_port = "1234"
+            saved_username = "Jd3"
 
         #Entering IP
         self.add_widget(Label(text="IP:"))
