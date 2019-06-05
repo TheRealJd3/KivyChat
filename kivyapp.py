@@ -6,12 +6,33 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
 from kivy.uix.screenmanager import ScreenManager,Screen
 from kivy.clock import Clock
+from kivy.core.window import Window 
+from kivy.uix.scrollview import ScrollView
 import os
 import socket_client
 import sys
 
 
 kivy.require("1.11.0")
+
+class ScrollableLabel(ScrollView):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.layout= GridLayout(cols=1, size_hint_y=None)
+        self.add_widget(self.layout)
+
+        self.chat_history = Label(size_hint_y=None, markup = True)
+        self.scroll_to_point=Label()
+        self.layout.add_widget(self.chat_history)
+        self.layout.add_widget(self.scroll_to_point)
+
+    def update_chat_history(self,message):
+        self.chat_history.text += '\n'+ message 
+
+        self.layout.height = self.chat_history.texture_size[1] + 15
+        self.chat_history.height = self.chat_history.texture_size[1]
+        self.chat_history.size = (self.chat_history.width*0.98,None)
+        self.scroll_to(self.scroll_to_point)
 
 class ConnectPage(GridLayout):
     def __init__(self, **kwargs):
@@ -91,7 +112,22 @@ class ChatPage(GridLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.cols = 1
-        self.add_widget(Label(text="Testing Chat page"))
+        self.rows = 2
+        #Chat history bit
+        self.history = Label(height=Window.size[1]*0.9, size_hint_y= None)
+        self.add_widget(self.history)
+        #Enter message
+        self.new_message = TextInput(width=Window.size[0]*0.8, size_hint_x=None, multiline=False)
+        self.send = Button(text="Send")
+        self.send.bind(on_press = self.send_message)
+
+        message_area =  GridLayout(cols=2)
+        message_area.add_widget(self.new_message)
+        message_area.add_widget(self.send)
+        self.add_widget(message_area)
+
+    def send_message(self,_):
+        print("Send a message")
 
 
 
