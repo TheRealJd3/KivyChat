@@ -1,0 +1,23 @@
+/home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/obj/local/armeabi-v7a/objs/png/pngrutil.o: \
+  /home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pngrutil.c \
+  /home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pngpriv.h \
+  /home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pnglibconf.h \
+  /home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/png.h \
+  /home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pngconf.h \
+  /home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pngstruct.h \
+  /home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pnginfo.h \
+  /home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pngdebug.h
+
+/home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pngpriv.h:
+
+/home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pnglibconf.h:
+
+/home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/png.h:
+
+/home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pngconf.h:
+
+/home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pngstruct.h:
+
+/home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pnginfo.h:
+
+/home/jason/Programming/python/KivyChat/.buildozer/android/platform/build/build/bootstrap_builds/sdl2-python3/jni/SDL2_image/external/libpng-1.6.32/pngdebug.h:

@@ -3,7 +3,7 @@ import select
 
 HEADER_LENGTH = 10
 
-IP = "127.0.0.1"
+IP = "192.168.1.107" #Change to 127.0.0.1 or anything else for local testing
 PORT = 1234
 
 # Create a socket
